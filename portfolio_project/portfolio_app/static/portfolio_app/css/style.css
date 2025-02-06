@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #008080; /* Turquoise */
+    border-bottom: 2px solid #008080;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e0f7f7;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* Project Styling */
+div.project {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div.project:hover {
+    box-shadow: 0 5px 15px rgba(0, 128, 128, 0.4);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a.project-title {
+    color: #0056b3; /* Blue */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a.project-title:hover {
+    color: #003366;
+}
+
+a.github-link {
+    color: #ff6600; /* Orange */
+    font-weight: bold;
+    margin-left: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+a.github-link:hover {
+    color: #cc5200;
+}
+
+/* Image */
+img {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Experience and Education */
+div.experience, div.education {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio_app/css/style.css' %}">  </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+            {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script src="{% static 'portfolio_app/js/script.js' %}"></script> </body>
+</html>
